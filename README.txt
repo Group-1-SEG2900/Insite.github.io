@@ -4,12 +4,12 @@ Repo for DGD group 1 of SEG2900, 2023.
 Team Members + Github Accounts:
 | Name          | Github Account        | Student Number     |
 --------------------------------------------------------------
-| Shane Stock   | github.com/Shane-CS   | 300351190          |
-| Name          | github.com/           | 3003xxxxx          |
-| Name          | github.com/           | 3003xxxxx          |
-| Name          | github.com/           | 3003xxxxx          |
-| Name          | github.com/           | 3003xxxxx          |
-| Name          | github.com/           | 3003xxxxx          |
+| Shane Stock      | github.com/Shane-CS   | 300351190          |
+| Raphaelle Ghanem | github.com/raphgh     | 300355381          |
+| Name             | github.com/           | 3003xxxxx          |
+| Name             | github.com/           | 3003xxxxx          |
+| Name             | github.com/           | 3003xxxxx          |
+| Name             | github.com/           | 3003xxxxx          |
 
 
 
