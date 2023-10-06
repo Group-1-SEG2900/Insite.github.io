@@ -21,4 +21,8 @@ Web Tech Project - Explanations and Deliverables: https://docs.google.com/docume
 
 Deliverable 1:
 Product / Service Name: 
-Brief Description: A social app that directly connects people who are at the same event through photo and video sharing. Users can share their experience/perspective at specific events (concerts, sports games, conferences, etc.) and have an insight into people from the same crowd in real time (or after). Events are split into categories ("folders") for other users to find content and other attendees in one place. (Content is also public for non-event goers unless the folder is made private by the event holder/company).
+Brief Description: A social app that directly connects people who are at the same event through 
+photo and video sharing. Users can share their experience/perspective at specific events (concerts, sports games,
+conferences, etc.) and have an insight into people from the same crowd in real time (or after). Events are 
+split into categories ("folders") for other users to find content and other attendees in one place. (Content 
+is also public for non-event goers unless the folder is made private by the event holder/company).
