@@ -9,7 +9,7 @@ Team Members + Github Accounts:
 | Peter Nkunga     | github.com/peternkunga1| 300337193          |
 | Danny Abdel Bary | github.com/            | 300362981          |
 | Om Buddhdev      | github.com/OmBudd      | 300291644          |
-| Name             | github.com/            | 3003xxxxx          |
+| Kalan King       | github.com/KalanKing1  | 300300418.         |
 
 
 
