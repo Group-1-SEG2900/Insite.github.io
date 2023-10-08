@@ -8,7 +8,7 @@ Team Members + Github Accounts:
 | Raphaelle Ghanem | github.com/raphgh      | 300355381          |
 | Peter Nkunga     | github.com/peternkunga1| 300337193          |
 | Danny Abdel Bary | github.com/            | 300362981          |
-| Name             | github.com/            | 3003xxxxx          |
+| Om Buddhdev      | github.com/OmBudd      | 300291644          |
 | Name             | github.com/            | 3003xxxxx          |
 
 
