@@ -7,7 +7,7 @@ Team Members + Github Accounts:
 | Shane Stock      | github.com/Shane-CS    | 300351190          |
 | Raphaelle Ghanem | github.com/raphgh      | 300355381          |
 | Peter Nkunga     | github.com/peternkunga1| 300337193          |
-| Name             | github.com/            | 3003xxxxx          |
+| Danny Abdel Bary | github.com/            | 300362981          |
 | Name             | github.com/            | 3003xxxxx          |
 | Name             | github.com/            | 3003xxxxx          |
 
