@@ -27,3 +27,19 @@ Users can share their experience/perspective at specific events (concerts, sport
 insight into people from the same crowd in real-time (or after). Events are split into categories ("folders") for users 
 to find content and other attendees in one place. (Content is also public for non-event goers unless the
 folder is made private by the event holder/company).
+
+Deliverable 2:
+#1 - Web Page Design Artifacts:
+        The Team has checked in photos, scans of web page design concepts.
+        All of these files should be checked into a folder called “mockups”.
+        Please only check in easily accessible files such as (.jpg, .png, .gif, .bmp, .pdf, .txt). If you are using programs like Photoshop, Illustrator, Sketch - please export to .jpg or .png before submitting.
+#2 - Web Page Implementation
+        The team has checked in all HTML pages to GitHub
+            Home Page
+            Product Features Page
+            Pricing Page
+            Team Page
+        1pt for each of the above pages. 1pt for team participation (each member has checked in something).
+
+
+
