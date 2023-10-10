@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.ui-kit {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+}
+
+.primary-color {
+    background-color: #007BFF;
+}
+
+.secondary-color {
+    background-color: #6C757D;
+}
+
+.typography h1, .typography h2, .typography p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.primary-btn {
+    background-color: #007BFF;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: #6C757D;
+    color: white;
+}
