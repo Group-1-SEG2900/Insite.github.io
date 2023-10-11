@@ -1,4 +1,4 @@
-ToDo Oct 22:
+ToDo Oct 17:
 - Logo - P + R
 - Design Plan / UI Kit - DGD
 - Home Page Content - P
@@ -10,6 +10,7 @@ ToDo Oct 22:
 - Pricing Page Mockup Photo - O
 - Team Page Mockup Photo - R
 
+ToDo Oct 22:
 - Home Page Basic HTML / CSS
 - Features Page Basic HTML / CSS
 - Pricing Page Basic HTML / CSS
