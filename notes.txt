@@ -11,9 +11,10 @@ ToDo Oct 17:
 - Team Page Mockup Photo - R
 
 ToDo Oct 22:
-- Home Page Basic HTML / CSS
-- Features Page Basic HTML / CSS
-- Pricing Page Basic HTML / CSS
-- Team Page Basic HTML / CSS
+- Home Page Part 1 - Basic HTML / CSS (S)
+- Home Page Part 2 - Basic HTML / CSS (O)
+- Features Page - Basic HTML / CSS (R)
+- Pricing Page - Basic HTML / CSS (D)
+- Team Page Basic -  HTML / CSS (P)
 - Product Mockups
 - Product Mockup Photos
