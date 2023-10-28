@@ -211,94 +211,87 @@
 </html>
 
 <!--Features Page code (Raph)-->
-<!DOCTYPE html>
 <html>
 <head>
     <title>Features Page</title>
     <style>
         h3 {
             text-decoration: underline;
-            color: #6E4276
+            color: #6E427;
         }
 
-        .feature-details {
-            display: inline-block;
-            width: 50%;
-            margin: 0 auto;
+        .features-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .feature-title {
+            width: 30%;
+            margin: 0;
             border-radius: 15px;
-            vertical-align: top;
-            padding: 15px
-        }
-
-        #sharing-perspectives {
+            padding: 15px;
+            text-align: center;
             background-color: #6E4276; /* purple */
+            margin-bottom: 20px; 
         }
 
-        #tree-structure {
+        .feature-list {
+            width: 30%;
+            margin: 0;
+            border-radius: 15px;
+            padding: 15px;
+            text-align: center;
             background-color: #073B3A; /* forest green */
         }
 
-        #personal-profiles {
-            background-color: #F6F862; /* yellow */
+        ul {
+            padding: 10px;
         }
-
-        .feature-names {
-            display: inline-block;
-            width: 50%;
-            margin-right: 2%;
-            border-radius: 15px;
-            vertical-align: top;
-            padding: 15px
-        }
-
     </style>
 </head>
 <body>
     <header>
         <h1>Features</h1>
     </header>
-    
-    <div class="feature-points" id ="sharing-perspectives">
-        <header>
-            <h5>Sharing perspectives at events</h5>
-        </header>
-    <div>
-        
-    <div class="feature-details" id="sharing-perspectives">
-        <ul>
-            <li>Collective Content: Access more event-related content from others by adding them to the event folder.</li>
-            <li>Shared Experiences: Share your unique perspective with other attendees.</li>
-            <li>Interact: Like and comment. Direct Messaging (DM) is not offered at the moment.</li>
-            <li>Meet New People: Connect with others you noticed at the event before, during, or after the show.</li>
-        </ul>
-    </div>
 
-    <div class="feature-points" id ="tree-structure">
-    <header>
-        <h5>Tree Structure and Folders</h5>
-    </header>
-    <div>
-        
-    <div class="feature-details" id="tree-structure">
-        <ul>
-            <li>All in one folder: All content for a specific event will be put into a folder for all eventgoers (and others) to share and see.</li>
-            <li>Efficient Organization: Events are split into categories (music, sports, etc) and will contain sub-folders.</li>
-        </ul>
-    </div>
-    
-    <div class="feature-points" id ="personal-profiles">
-        <header>
-            <h5>Personal profiles</h5>
-        </header>
-    <div>
-        
-    <div class="feature-details" id="personal-profiles">
-        <ul>
-            <li>Customizable Profiles: Create your unique profile with a username and display name.</li>
-            <li>Fandom Display: Showcase the artists, teams, or events you enjoy on your profile.</li>
-            <li>Tailored Home Feed: Select at least three interests to personalize your feed with their event photos.</li>
-            <li>Social Media Integration: Link your other social media accounts to your profile.</li>
-        </ul>
+    <div class="features-container">
+        <div class="feature-title">
+            <h3>Sharing Perspectives at Events</h3>
+        </div>
+
+        <div class="feature-list">
+            <ul>
+                <li>Collective Content: Access more event-related content from others by adding them to the event folder.</li>
+                <li>Shared Experiences: Share your unique perspective with other attendees.</li>
+                <li>Interact: Like and comment. Direct Messaging (DM) is not offered at the moment.</li>
+                <li>Meet New People: Connect with others you noticed at the event before, during, or after the show.</li>
+            </ul>
+        </div>
+
+        <div class="feature-title">
+            <h3>Tree Structure and Folders</h3>
+        </div>
+
+        <div class="feature-list">
+            <ul>
+                <li>All in one folder: All content for a specific event will be put into a folder for all eventgoers (and others) to share and see.</li>
+                <li>Efficient Organization: Events are split into categories (music, sports, etc) and will contain sub-folders.</li>
+            </ul>
+        </div>
+
+        <div class="feature-title">
+            <h3>Personal Profiles</h3>
+        </div>
+
+        <div class="feature-list">
+            <ul>
+                <li>Customizable Profiles: Create your unique profile with a username and display name.</li>
+                <li>Fandom Display: Showcase the artists, teams, or events you enjoy on your profile.</li>
+                <li>Tailored Home Feed: Select at least three interests to personalize your feed with their event photos.</li>
+                <li>Social Media Integration: Link your other social media accounts to your profile.</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
