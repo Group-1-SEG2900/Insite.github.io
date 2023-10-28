@@ -1,36 +1,153 @@
+<!--Home Page Part 1 (Image Matrix) code (Shane)-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Home</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <script>
+            window.onload = function() {
+                var images = document.querySelectorAll('#image-matrix img');
+                var classes = ['slideInFromLeft', 'slideInFromRight', 'slideInFromTop', 'slideInFromBottom'];
+            
+                images.forEach(function(image) {
+                    var randomIndex = Math.floor(Math.random() * classes.length);
+                    var randomClass = classes[randomIndex];
+                    image.classList.add(randomClass);
+                });
+            };
+        </script>
+        <style>
+            #landing-screen {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                overflow: hidden;
+            }
+            #image-matrix {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                gap: 1px;
+                width: 100%;
+                height: 100%;
+            }
+            #image-matrix img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center; /* Adjust as needed */
+            }
+            #overlay {
+                position: absolute; /* Sit on top of the page content */
+                display: block; /* Hidden by default */
+                width: 100%; /* Full width (cover the whole page) */
+                height: 100%; /* Full height (cover the whole page) */
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+                z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+            }
+            #company-name {
+                z-index: 3;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 4em;
+                color: white;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+
+
+            @keyframes slideInFromLeft {
+                0% {
+                    transform: translateX(-100%);
+                }
+                100% {
+                    transform: translateX(0);
+                }
+            }
+            
+            @keyframes slideInFromRight {
+                0% {
+                    transform: translateX(100%);
+                }
+                100% {
+                    transform: translateX(0);
+                }
+            }
+            
+            @keyframes slideInFromTop {
+                0% {
+                    transform: translateY(-100%);
+                }
+                100% {
+                    transform: translateY(0);
+                }
+            }
+            
+            @keyframes slideInFromBottom {
+                0% {
+                    transform: translateY(100%);
+                }
+                100% {
+                    transform: translateY(0);
+                }
+            }
+            
+            .slideInFromLeft {
+                animation: slideInFromLeft 1s forwards;
+            }
+            
+            .slideInFromRight {
+                animation: slideInFromRight 1s forwards;
+            }
+            
+            .slideInFromTop {
+                animation: slideInFromTop 1s forwards;
+            }
+            
+            .slideInFromBottom {
+                animation: slideInFromBottom 1s forwards;
+            }
+        </style>
     </head>
     <body>
-        <!--Home Page Part 1 code-->
-        <div>
-            <div style="width: 1440px; height: 815px; position: relative; background: white">
-                <div style="width: 1440px; height: 808.50px; left: 0px; top: 7px; position: absolute">
-                  <div style="width: 360px; height: 202.50px; left: 360px; top: 0px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 0px; top: 202px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 360px; top: 202px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 720px; top: 0px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 720px; top: 202px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 1080px; top: 202px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 1080px; top: 0px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 1080px; top: 404px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 1080px; top: 606px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 720px; top: 404px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 720px; top: 606px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 360px; top: 606px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 360px; top: 404px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 0px; top: 404px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 0px; top: 606px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                  <div style="width: 360px; height: 202.50px; left: 0px; top: 0px; position: absolute; background: white; border: 1px rgba(224.19, 224.19, 224.19, 0.74) solid"></div>
-                </div>
-                <div style="left: 602px; top: 321px; position: absolute; color: black; font-size: 180px; font-family: Just Another Hand; font-weight: 400; word-wrap: break-word">Insite</div>
-              </div>
-        </div>
+        <section id="landing-screen">
+            <div id="image-matrix">
+                <img src="https://unsplash.it/600/400/?&1" alt="Image 1">
+                <img src="https://unsplash.it/600/400/?&2" alt="Image 2">
+                <img src="https://unsplash.it/600/400/?&3" alt="Image 3">
+                <img src="https://unsplash.it/600/400/?&4" alt="Image 4">
+                <img src="https://unsplash.it/600/400/?&5" alt="Image 5">
+                <img src="https://unsplash.it/600/400/?&6" alt="Image 6">
+                <img src="https://unsplash.it/600/400/?&7" alt="Image 7">
+                <img src="https://unsplash.it/600/400/?&8" alt="Image 8">
+                <img src="https://unsplash.it/600/400/?&9" alt="Image 9">
+                <img src="https://unsplash.it/600/400/?&10" alt="Image 10">
+                <img src="https://unsplash.it/600/400/?&11" alt="Image 11">
+                <img src="https://unsplash.it/600/400/?&12" alt="Image 12">
+                <img src="https://unsplash.it/600/400/?&13" alt="Image 13">
+                <img src="https://unsplash.it/600/400/?&14" alt="Image 14">
+                <img src="https://unsplash.it/600/400/?&15" alt="Image 15">
+                <img src="https://unsplash.it/600/400/?&16" alt="Image 16">
+                <img src="https://unsplash.it/600/400/?&17" alt="Image 17">
+                <img src="https://unsplash.it/600/400/?&18" alt="Image 18">
+                <img src="https://unsplash.it/600/400/?&19" alt="Image 19">
+                <img src="https://unsplash.it/600/400/?&20" alt="Image 20">
+                <img src="https://unsplash.it/600/400/?&21" alt="Image 21">
+                <img src="https://unsplash.it/600/400/?&22" alt="Image 22">
+                <img src="https://unsplash.it/600/400/?&23" alt="Image 23">
+                <img src="https://unsplash.it/600/400/?&24" alt="Image 24">
+            </div>
+            <div id="overlay"></div> 
+            <div id="company-name">
+                <h1>Insite</h1>
+            </div>
+        </section>
     </body>
 </html>
 
@@ -101,7 +218,7 @@
     <style>
         h3 {
             text-decoration: underline;
-            color: #6E427;
+            color: #6E4276
         }
 
         .feature-details {
@@ -123,8 +240,6 @@
 
         #personal-profiles {
             background-color: #F6F862; /* yellow */
-        }
-
         }
 
         .feature-names {
