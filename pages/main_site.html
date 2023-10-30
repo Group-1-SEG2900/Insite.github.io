@@ -48,31 +48,58 @@
 <head>
     <title>Home Page</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F7F7FF;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
         .title {
             font-size: 50px;
             text-align: center;
-            text-decoration: underline;
+            text-decoration: none;
+            color: #6E4276;
+            background-color: #F6F862;
+            padding: 20px;
+            margin-bottom: 20px;
         }
-        
+
         .caption {
             font-size: 30px;
             text-align: center;
+            margin-bottom: 40px;
+            color: #073B3A;
         }
-        
+
         .section-content {
             display: flex;
             align-items: center;
+            justify-content: space-between;
+            background-color: #6E4276;
             margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
         }
-        
+
         .bold {
             font-weight: bold;
+            color: #F7F7FF;
             margin-right: 20px;
+            flex-grow: 2;
         }
-        
+
         .image {
             width: 150px;
             height: 150px;
+            border-radius: 50%;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
     </style>
 </head>
@@ -84,20 +111,22 @@
     <h2 class="caption">Enjoy, share, and discover</h2>
 </section>
 
-<section class="section-content">
-    <h3 class="bold">Share experiences of events you've attended with other event attendees</h3>
-    <img src="sample_img.jpg" alt="Sample image" class="image">
-</section>
+<div class="container">
+    <section class="section-content">
+        <h3 class="bold">Share experiences of events you've attended with other event attendees</h3>
+        <img src="https://i.imgur.com/jCVcvQO.png" alt="Sharing Experiences" class="image">
+    </section>
 
-<section class="section-content">
-    <h3 class="bold">Relive events you've attended, saving and encapsulating memories from an event to last a lifetime</h3>
-    <img src="sample_img.jpg" alt="Sample image" class="image">
-</section>
+    <section class="section-content">
+        <h3 class="bold">Relive events you've attended, saving and encapsulating memories from an event to last a lifetime</h3>
+        <img src="https://i.imgur.com/eAxtTGn.png" alt="Reliving Events" class="image">
+    </section>
 
-<section class="section-content">
-    <h3 class="bold">View authentic reviews and genuine experiences of others at events</h3>
-    <img src="sample_img.jpg" alt="Sample image" class="image">
-</section>
+    <section class="section-content">
+        <h3 class="bold">View authentic reviews and genuine experiences of others at events</h3>
+        <img src="https://i.imgur.com/6l80fX2.png" alt="Viewing Reviews" class="image">
+    </section>
+</div>
 
 </body>
 </html>
