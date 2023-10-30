@@ -151,6 +151,12 @@
             padding: 0;
         }
 
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+
         .sharing-title {
             width: 200px;
             height: 100px;
@@ -168,7 +174,7 @@
             background-color: #F6F862; /* Yellow */
             border: 1px solid #000;
             padding: 10px;
-            margin: 10px;
+            margin-right: 10px;
             border-radius: 10px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
         }
@@ -221,17 +227,19 @@
     <header>
         <h1>Features</h1>
     </header>
+    
+    <div class="container">
+        <div class="sharing-title">
+            <h3>Sharing Perspectives at Events</h3>
+        </div>
 
-    <div class="sharing-title">
-        <h3>Sharing Perspectives at Events</h3>
-    </div>
-
-    <div class="tree-title">
-        <h3>Tree Structure and Folders</h3>
-    </div>
-
-    <div class="profile-title">
-        <h3>Personal Profiles</h3>
+        <div class="tree-title">
+            <h3>Tree Structure and Folders</h3>
+        </div>
+    
+        <div class="profile-title">
+            <h3>Personal Profiles</h3>
+        </div>
     </div>
 
     <div class="sharing-main-box">
