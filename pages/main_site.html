@@ -1,3 +1,12 @@
+<!--Bonus marks (10%) for website
+Privacy policy/terms of use/copyright
+Works on mobile
+Cool technology (Angular JS, jQuery Mobile)
+Responsive website
+Own hosting (if there is server-side processing)
+Google Analytics (but it requires a privacy policy)
+-->
+
 <!--Home Page Part 1 (Image Matrix) code (Shane)-->
 <!DOCTYPE html>
 <html lang="en">
@@ -48,31 +57,58 @@
 <head>
     <title>Home Page</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F7F7FF;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
         .title {
             font-size: 50px;
             text-align: center;
-            text-decoration: underline;
+            text-decoration: none;
+            color: #6E4276;
+            background-color: #F6F862;
+            padding: 20px;
+            margin-bottom: 20px;
         }
-        
+
         .caption {
             font-size: 30px;
             text-align: center;
+            margin-bottom: 40px;
+            color: #073B3A;
         }
-        
+
         .section-content {
             display: flex;
             align-items: center;
+            justify-content: space-between;
+            background-color: #6E4276;
             margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
         }
-        
+
         .bold {
             font-weight: bold;
+            color: #F7F7FF;
             margin-right: 20px;
+            flex-grow: 2;
         }
-        
+
         .image {
             width: 150px;
             height: 150px;
+            border-radius: 50%;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
     </style>
 </head>
@@ -84,20 +120,22 @@
     <h2 class="caption">Enjoy, share, and discover</h2>
 </section>
 
-<section class="section-content">
-    <h3 class="bold">Share experiences of events you've attended with other event attendees</h3>
-    <img src="sample_img.jpg" alt="Sample image" class="image">
-</section>
+<div class="container">
+    <section class="section-content">
+        <h3 class="bold">Share experiences of events you've attended with other event attendees</h3>
+        <img src="https://i.imgur.com/jCVcvQO.png" alt="Sharing Experiences" class="image">
+    </section>
 
-<section class="section-content">
-    <h3 class="bold">Relive events you've attended, saving and encapsulating memories from an event to last a lifetime</h3>
-    <img src="sample_img.jpg" alt="Sample image" class="image">
-</section>
+    <section class="section-content">
+        <h3 class="bold">Relive events you've attended, saving and encapsulating memories from an event to last a lifetime</h3>
+        <img src="https://i.imgur.com/eAxtTGn.png" alt="Reliving Events" class="image">
+    </section>
 
-<section class="section-content">
-    <h3 class="bold">View authentic reviews and genuine experiences of others at events</h3>
-    <img src="sample_img.jpg" alt="Sample image" class="image">
-</section>
+    <section class="section-content">
+        <h3 class="bold">View authentic reviews and genuine experiences of others at events</h3>
+        <img src="https://i.imgur.com/6l80fX2.png" alt="Viewing Reviews" class="image">
+    </section>
+</div>
 
 </body>
 </html>
@@ -107,85 +145,148 @@
 <head>
     <title>Features Page</title>
     <style>
-        h3 {
-            text-decoration: underline;
-            color: #6E4276;
+        
+        .features-text {
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
         }
 
-        .feature-container {
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F7F7FF;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container-small {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-start;
+            flex-wrap: wrap;
         }
 
-        .feature-title {
-            width: 30%;
+        .sharing-title {
+            width: 200px;
             height: 100px;
+            margin: 0 auto;
+            background-color: #6E4276; /* Purple */
+            border: 1px solid #000;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .tree-title {
+            width: 200px;
+            height: 100px;
+            background-color: #F6F862; /* Yellow */
+            border: 1px solid #000;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-title {
+            width: 200px;
+            height: 100px;
+            background-color: #073B3A; /* Forest Green */
+            border: 1px solid #000;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .sharing-main-box {
+            width: 1000px;
+            height: 200px;
             text-align: center;
             background-color: #6E4276; /* Purple */
+            border-radius: 10px;
             margin-bottom: 20px;
-            font-size: 24px;
+            padding: 10px;
+            margin: 0 auto;
         }
 
-        .feature-list {
-            width: 30%;
+        .tree-main-box {
+            width: 1000px;
+            height: 200px;
+            text-align: center;
+            background-color: #F6F862; /* Yellow */
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+        .profile-main-box {
+            width: 1000px;
+            height: 200px;
             text-align: center;
             background-color: #073B3A; /* Forest Green */
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 10px;
+            margin: 0 auto;
         }
 
-        .feature-list ul {
-            padding: 10px;
-        }
     </style>
+    
 </head>
 <body>
     <header>
         <h1>Features</h1>
     </header>
-
-    <div class="feature-container">
-        <div class="feature-title">
+    
+    <div class="container">
+        <div class="sharing-title">
             <h3>Sharing Perspectives at Events</h3>
         </div>
 
-        <div class="feature-title">
+        <div class="tree-title">
             <h3>Tree Structure and Folders</h3>
         </div>
-
-        <div class="feature-title">
+    
+        <div class="profile-title">
             <h3>Personal Profiles</h3>
         </div>
     </div>
 
-    <div class="feature-container">
-        <div class="feature-list">
-            <ul>
-                <li>Collective Content: Access more event-related content from others by adding them to the event folder.</li>
-                <li>Shared Experiences: Share your unique perspective with other attendees.</li>
-                <li>Interact: Like and comment. Direct Messaging (DM) is not offered at the moment.</li>
-                <li>Meet New People: Connect with others you noticed at the event before, during, or after the show.</li>
-            </ul>
+    <div class="container-big">
+        <div class="sharing-main-box">
+            <p>
+                Collective Content: Access more event-related content from others by adding them to the event folder.<br>
+                Shared Experiences: Share your unique perspective with other attendees.<br>
+                Interact: Like and comment. Direct Messaging (DM) is not offered at the moment.<br>
+                Meet New People: Connect with others you noticed at the event before, during, or after the show.
+            </p>
         </div>
-
-        <div class="feature-list">
-            <ul>
-                <li>All in one folder: All content for a specific event will be put into a folder for all eventgoers (and others) to share and see.</li>
-                <li>Efficient Organization: Events are split into categories (music, sports, etc) and will contain sub-folders.</li>
-            </ul>
+    
+        <div class="tree-main-box">
+            <p>
+                All in one folder: All content for a specific event will be put into a folder for all eventgoers (and others) to share and see.<br>
+                Efficient Organization: Events are split into categories (music, sports, etc) and will contain sub-folders.
+            </p>
         </div>
-
-        <div class="feature-list">
-            <ul>
-                <li>Customizable Profiles: Create your unique profile with a username and display name.</li>
-                <li>Fandom Display: Showcase the artists, teams, or events you enjoy on your profile.</li>
-                <li>Tailored Home Feed: Select at least three interests to personalize your feed with their event photos.</li>
-                <li>Social Media Integration: Link your other social media accounts to your profile.</li>
-            </ul>
+    
+        <div class="profile-main-box">
+            <p>
+                Customizable Profiles: Create your unique profile with a username and display name.<br>
+                Fandom Display: Showcase the artists, teams, or events you enjoy on your profile.<br>
+                Tailored Home Feed: Select at least three interests to personalize your feed with their event photos.<br>
+                Social Media Integration: Link your other social media accounts to your profile.
+            </p>
         </div>
     </div>
+
 </body>
 </html>
 
 <!--Pricing Page code (Danny)-->
+
 <h1 style="text-align:center">Pricing</h1>
 <h2 style="text-align:center">Insite is free for users. Enterprise pricing shown below</h2>
 
@@ -269,7 +370,6 @@
   padding: 0px;
   align-items: start;
 }
-
 
 .grid-item {
   padding: 10px;
