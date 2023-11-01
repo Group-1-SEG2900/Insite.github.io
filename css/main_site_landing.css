@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
 #landing-screen {
     position: relative;
     width: 100%;
@@ -36,7 +37,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4em;
+    font-family: "Playpen Sans", sans-serif;
+    font-size: 5em;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
