@@ -35,3 +35,24 @@ function checkScroll() {
 
 window.addEventListener('scroll', checkScroll, false);
 window.addEventListener('resize', checkScroll, false);
+
+window.onload = function() {
+    document.getElementById("hoverOver").onmouseenter = function() {mouseEnter()};
+    document.getElementById("navigator").onmouseleave = function() {mouseLeave()};
+    document.getElementsById("link1").onclick = function() {window.scrollTo(0)};
+    document.getElementsById("link2").onclick = function() {document.getElementById("featuresPage").scrollIntoView()};
+    document.getElementsById("link3").onclick = function() {document.getElementById("featuresPage").scrollIntoView()};
+    document.getElementsById("link4").onclick = function() {document.getElementById("featuresPage").scrollIntoView()};
+
+    function mouseEnter() {
+        document.getElementById("navigator").className = "navDown";
+    }
+
+    function mouseLeave() {
+        document.getElementById("navigator").className = "navUp";
+    }
+
+    function jumpTo(link) {
+        document.getElementById("featuresPage").scrollIntoView();
+      }
+};

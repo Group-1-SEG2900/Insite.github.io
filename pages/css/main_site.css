@@ -1,16 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
 
-/* General Website Style rules */
-body {
-    font-family: "Playpen Sans", sans-serif;
-    background-image: url("/assets/site_circles_bg.png");
-    background-size: cover;
-    background-color: #F7F7FF;
-    color: #000000;
-    margin: 0;
-    padding: 0;
+/* css for navigator bar*/
+
+@keyframes slideNavigatorDown {
+    0%{
+        transform: translateY(-100%)
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
-/* Top image grid section */
+
+@keyframes slideNavigatorUp {
+    0%{
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+#hoverOver{
+    overflow: "hidden";
+    background-color:(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    z-index : 3;
+}
+
+#navigator{
+    overflow: "hidden";
+    background-color:#e9e9e9;
+    position: fixed;
+    top : 0;
+    z-index: 4;
+    width: 100%;
+    height:50px;
+}
+
+.navUp{
+    animation: slideNavigatorUp 0.5s forwards;
+}
+
+.navDown{
+    animation: slideNavigatorDown 0.5s forwards;
+}
+
+
+#navigator a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+#navigator a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+html {
+    scroll-behavior: smooth;
+  }
+/* css for landing screen */
 #landing-screen {
     position: relative;
     width: 100%;
@@ -55,64 +113,16 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-
-@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
+/* css for home page*/
+#homePage {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7FF;
+    color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
-@keyframes slideInFromRight {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideInFromTop {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideInFromBottom {
-    0% {
-        transform: translateY(100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-.slideInFromLeft {
-    animation: slideInFromLeft 1s forwards;
-}
-
-.slideInFromRight {
-    animation: slideInFromRight 1s forwards;
-}
-
-.slideInFromTop {
-    animation: slideInFromTop 1s forwards;
-}
-
-.slideInFromBottom {
-    animation: slideInFromBottom 1s forwards;
-}
-
-
-/* Home Part 2 */
-
-#title {
-    font-family: "Playpen Sans", sans-serif;
+.title {
     font-size: 50px;
     text-align: center;
     text-decoration: none;
@@ -122,15 +132,14 @@ body {
     margin-bottom: 20px;
 }
 
-#caption {
-    font-family: "Playpen Sans", sans-serif;
+.caption {
     font-size: 30px;
     text-align: center;
     margin-bottom: 40px;
     color: #073B3A;
 }
 
-#section-content {
+.section-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -140,37 +149,34 @@ body {
     border-radius: 10px;
 }
 
-#bold {
-    font-family: "Playpen Sans", sans-serif;
+.bold {
     font-weight: bold;
     color: #F7F7FF;
     margin-right: 20px;
     flex-grow: 2;
 }
 
-#image {
+.image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
-#container {
+.container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-
-/* Features  */
+/* css for features page*/
 .features-text {
-    font-family: "Playpen Sans", sans-serif;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
 }
 
-body {
-    font-family: "Playpen Sans", sans-serif;
+#featuresPage {
+    font-family: Arial, sans-serif;
     background-color: #F7F7FF;
     color: #000000;
     margin: 0;
@@ -250,79 +256,78 @@ body {
     margin: 0 auto;
 }
 
-/* Pricing  */
-.pricing-button {
-    background-color: lightgray;
-    border: none;
-    color: black;
-    padding: 20px 100px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    text-align: center;
-}
+/* css for pricing page*/
 
-.events-header {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    background-color: #F6F862; /* Yellow */
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.corporate-header {
-    width: 250px;
-    height: 250px;
-    background-color: #073B3A; /* Forest Green */
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.data-header {
-    width: 250px;
-    height: 250px;
-    background-color: #6E4276; /* Purple */
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.pricing-body {
-    width: 750px;
-    height: 250px;
-    background-color: #F7F7FF;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Team */
+/* css for team page*/
 .grid-container {
     display: grid;
     gap: 50px 0px;
-    grid-template-columns: 10fr 35fr 25fr 10fr 35fr;
+    grid-template-columns: 10fr 35fr 25fr 10fr 35fr ;
     padding: 0px;
     align-items: start;
-}
+  }
 
 .grid-item {
     padding: 10px;
     font-size: 20px;
     word-wrap: break-word;
-}
+  }
 
 img.rounded {
-    object-fit: cover;
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+    }
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.slideInFromLeft {
+    animation: slideInFromLeft 1s forwards;
+}
+
+.slideInFromRight {
+    animation: slideInFromRight 1s forwards;
+}
+
+.slideInFromTop {
+    animation: slideInFromTop 1s forwards;
+}
+
+.slideInFromBottom {
+    animation: slideInFromBottom 1s forwards;
 }
