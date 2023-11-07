@@ -3,6 +3,8 @@
 /* General Website Style rules */
 body {
     font-family: "Playpen Sans", sans-serif;
+    background-image: url("../assets/site_circles_bg.png");
+    background-size: cover;
     background-color: #F7F7FF;
     color: #000000;
     margin: 0;
