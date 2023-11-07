@@ -10,6 +10,13 @@ Google Analytics (but it requires a privacy policy)
 <!--Home Page Part 1 (Image Matrix) code (Shane)-->
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <script src="scripts/main_site.js"></script> 
+        <link rel="stylesheet" href="css/main_site.css">
+    </head>
+    <body>
 
 <head>
     <meta charset="UTF-8">
@@ -45,10 +52,17 @@ Google Analytics (but it requires a privacy policy)
             <img src="https://unsplash.it/600/400/?&22" alt="Image 22">
             <img src="https://unsplash.it/600/400/?&23" alt="Image 23">
             <img src="https://unsplash.it/600/400/?&24" alt="Image 24">
+        <div id = "hoverOver">
         </div>
         <div id="overlay"></div>
         <div id="company-name">
             <h1>insite</h1>
+        
+        <div id = "navigator" class ="navDown">
+            <a class = "navLink" id = "link1" href="#homePage">Home</a>
+            <a class = "navLink" id = "link2" href="#featuresPage">Features</a>
+            <a class = "navLink" id = "link3" href="#pricingPage">Pricing</a>
+            <a class = "navLink" id = "link4" href="#aboutPage">About</a>
         </div>
     </section>
 
@@ -62,6 +76,38 @@ Google Analytics (but it requires a privacy policy)
         <section id="section-content">
             <h3 id="bold">Share experiences of events you've attended with other event attendees</h3>
             <img src="https://i.imgur.com/jCVcvQO.png" alt="Sharing Experiences" id="image">
+        <section id="landing-screen">
+            <div id="image-matrix">
+                <img src="https://unsplash.it/600/400/?&1" alt="Image 1">
+                <img src="https://unsplash.it/600/400/?&2" alt="Image 2">
+                <img src="https://unsplash.it/600/400/?&3" alt="Image 3">
+                <img src="https://unsplash.it/600/400/?&4" alt="Image 4">
+                <img src="https://unsplash.it/600/400/?&5" alt="Image 5">
+                <img src="https://unsplash.it/600/400/?&6" alt="Image 6">
+                <img src="https://unsplash.it/600/400/?&7" alt="Image 7">
+                <img src="https://unsplash.it/600/400/?&8" alt="Image 8">
+                <img src="https://unsplash.it/600/400/?&9" alt="Image 9">
+                <img src="https://unsplash.it/600/400/?&10" alt="Image 10">
+                <img src="https://unsplash.it/600/400/?&11" alt="Image 11">
+                <img src="https://unsplash.it/600/400/?&12" alt="Image 12">
+                <img src="https://unsplash.it/600/400/?&13" alt="Image 13">
+                <img src="https://unsplash.it/600/400/?&14" alt="Image 14">
+                <img src="https://unsplash.it/600/400/?&15" alt="Image 15">
+                <img src="https://unsplash.it/600/400/?&16" alt="Image 16">
+                <img src="https://unsplash.it/600/400/?&17" alt="Image 17">
+                <img src="https://unsplash.it/600/400/?&18" alt="Image 18">
+                <img src="https://unsplash.it/600/400/?&19" alt="Image 19">
+                <img src="https://unsplash.it/600/400/?&20" alt="Image 20">
+                <img src="https://unsplash.it/600/400/?&21" alt="Image 21">
+                <img src="https://unsplash.it/600/400/?&22" alt="Image 22">
+                <img src="https://unsplash.it/600/400/?&23" alt="Image 23">
+                <img src="https://unsplash.it/600/400/?&24" alt="Image 24">
+            </div>
+            <div id="overlay"> 
+                <div id="company-name">
+                    <h1>insite</h1>
+                </div>
+            </div>
         </section>
 
         <section id="section-content">
@@ -69,17 +115,49 @@ Google Analytics (but it requires a privacy policy)
                 lifetime</h3>
             <img src="https://i.imgur.com/eAxtTGn.png" alt="Reliving Events" id="image">
         </section>
+        <div id="container">
+            <section class="demo_section">
+                <h2 class="demo_title">Demo</h2>
+                <video id="demo1" width="100%" height='auto' muted loop>
+                    <source src="assets/V1 Video.mp4" type="video/mp4" />
+                </video>
+            </section>
+        </div>
+
+    
 
         <section id="section-content">
             <h3 id="bold">View authentic reviews and genuine experiences of others at events</h3>
             <img src="https://i.imgur.com/6l80fX2.png" alt="Viewing Reviews" id="image">
+<!--Home Page code (Om)-->
+
+    
+        <section id = "homePage">
+            <h1 id="title">Insite</h1>
+            <h2 id="caption">Enjoy, share, and discover</h2>
         </section>
     </div>
                 <h3 class="bold">View authentic reviews and genuine experiences of others at events</h3>
                 <img src="https://i.imgur.com/6l80fX2.png" alt="Viewing Reviews" class="image">
+
+        <div id="container">
+            <section id="section-content">
+                <h3 id="bold">Share experiences of events you've attended with other event attendees</h3>
+                <img src="https://i.imgur.com/jCVcvQO.png" alt="Sharing Experiences" id="image">
+            </section>
+
+            <section class="section-content">
+                <h3 id="bold">Relive events you've attended, saving and encapsulating memories from an event to last a lifetime</h3>
+                <img src="https://i.imgur.com/eAxtTGn.png" alt="Reliving Events" id="image">
+            </section>
+
+            <section class="section-content">
+                <h3 id="bold">View authentic reviews and genuine experiences of others at events</h3>
+                <img src="https://i.imgur.com/6l80fX2.png" alt="Viewing Reviews" id="image">
             </section>
         </div>
     </body>
+    
 
 
 <!--Features Page code (Raph)-->
@@ -88,15 +166,26 @@ Google Analytics (but it requires a privacy policy)
         <div class="sharing-title">
             <h3>Sharing Perspectives at Events</h3>
         </div>
+    
+        <section id = "featuresPage">
+            <h1>Features</h1>
+        </section>
 
         <div class="tree-title">
             <h3>Tree Structure and Folders</h3>
         </div>
+        <div class="container">
+            <div class="sharing-title">
+                <h3>Sharing Perspectives at Events</h3>
+            </div>
 
         <div class="profile-title">
             <h3>Personal Profiles</h3>
         </div>
     </div>
+            <div class="tree-title">
+                <h3>Tree Structure and Folders</h3>
+            </div>
 
     <div class="container-big">
         <div class="sharing-main-box">
@@ -107,13 +196,27 @@ Google Analytics (but it requires a privacy policy)
                 Interact: Like and comment. Direct Messaging (DM) is not offered at the moment.<br>
                 Meet New People: Connect with others you noticed at the event before, during, or after the show.
             </p>
+            <div class="profile-title">
+                <h3>Personal Profiles</h3>
+            </div>
         </div>
 
+        <div class="container-big">
             <div class="sharing-main-box">
                 <p>
                     Collective Content: Access more event-related content from others by adding them to the event folder.<br>
                     Shared Experiences: Share your unique perspective with other attendees.<br>
                     Interact: Like and comment. Direct Messaging (DM) is not offered at the moment.<br>
+                    Meet New People: Connect with others you noticed at the event before, during, or after the show.
+                </p>
+            </div>
+
+            <div class="tree-main-box">
+                <p>
+                    All in one folder: All content for a specific event will be put into a folder for all eventgoers (and others) to share and see.<br>
+                    Efficient Organization: Events are split into categories (music, sports, etc) and will contain sub-folders.
+                </p>
+            </div>
 
             <div class="profile-main-box">
                 <p>
@@ -121,6 +224,8 @@ Google Analytics (but it requires a privacy policy)
                     Fandom Display: Showcase the artists, teams, or events you enjoy on your profile.<br>
                     Tailored Home Feed: Select at least three interests to personalize your feed with their event photos.<br>
                     Social Media Integration: Link your other social media accounts to your profile.
+                </p>
+            </div>
         </div>
 
         <div class="profile-main-box">
@@ -133,6 +238,7 @@ Google Analytics (but it requires a privacy policy)
             </p>
         </div>
     </div>
+    
 
 
     <!--Pricing Page code (Danny)-->
@@ -144,6 +250,7 @@ Google Analytics (but it requires a privacy policy)
     </div>
     <table>
         <tr>
+            <td>
                 <div class="events-header">
                     <h1>Events Solution</h1>
                 </div>
@@ -174,18 +281,33 @@ Google Analytics (but it requires a privacy policy)
         <table>
             <tr>
                 <td>
+                    <a href="url">Contact Sales/Link to solution button</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="corporate-header">
                     <h1>Corporate Solutions</h1>
                 </td>
                 <td>
+                </div>
+            </td>
+            <td>
+                <div class="pricing-body">
                     <h3>Corporate-Hosted Events:</h3>
                     <ul>
                         <li>Make your events more engaging and memorable for your employees with private, company-hosted events on Insite</li>
+                        <li>Make your events more engaging and memorable for your employees with private, company-hosted
+                            events on Insite</li>
                         <li>Private events that employees can post their experiences and memories to</li>
                     </ul>
                     <h3>Corporate Challenges:</h3>
                     <ul>
                         <li>Host challenges specific to an event or the entire platform</li>
                         <li>Have millions of platform users create organic UGC content for your brand or company, e.g., post photos of drinking coke at your events</li>
+                        <li>Have millions of platform users create organic UGC content for your brand or company, e.g., post
+                            photos of drinking coke at your events</li>
                     </ul>
                 </td>
                 <td>
@@ -197,17 +319,38 @@ Google Analytics (but it requires a privacy policy)
         <table>
             <tr>
                 <td>
+                </div>
+            </td>
+            <td>
+                <div class="pricing-button">
+                    <a href="url">Contact Sales/Link to solution button</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="data-header">
                     <h1>Data and Ads</h1>
                 </td>
                 <td>
+                </div>
+            </td>
+            <td>
+                <div class="pricing-body">
                     <h3>Data Analysis Platform:</h3>
                     <ul>
                         <li>Use our data analysis platform for your company, event, or business to get aggregated data points from millions of Insite users</li>
                         <li>Analyze the data of public events on Insite, including generating insights using engagement and UGC data at any public event</li>
+                        <li>Use our data analysis platform for your company, event, or business to get aggregated data
+                            points from millions of Insite users</li>
+                        <li>Analyze the data of public events on Insite, including generating insights using engagement and
+                            UGC data at any public event</li>
                     </ul>
                     <h3>Ad Platform:</h3>
                     <ul>
                         <li>Display any of your businesses ads and promotional material on Insite, catered andtargeted to relevant users based on their relevant data points</li>
+                        <li>Display any of your businesses ads and promotional material on Insite, catered andtargeted to
+                            relevant users based on their relevant data points</li>
                     </ul>
                 </td>
                 <td>
@@ -216,10 +359,21 @@ Google Analytics (but it requires a privacy policy)
             </tr>
         </table>
     </body>
+                </div>
+            </td>
+            <td>
+                <div class="pricing-button">
+                    <a href="url">Contact Sales/Link to solution button</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
 
 <!--Team Page code (Peter)-->
 
     <body >
+    
         <section id ="aboutPage">
             <h1>Our Team</h1>
         </section>
@@ -249,5 +403,57 @@ Google Analytics (but it requires a privacy policy)
             <div class="grid-item"></div>
             <div class="grid-item"><img width="150" height="150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/800px-Default_pfp.svg.png" alt=""></div>
             <div class="grid-item">Team member Name <br> Description </div>
+        <!--person 1-->
+        <div class="grid-item"></div>
+        <div class="grid-item"><img width="150" height="150"
+                src="https://media.licdn.com/dms/image/D5603AQGlsYaKo0DSLA/profile-displayphoto-shrink_200_200/0/1698273108232?e=1704931200&v=beta&t=raKpSwdKy_VcQ6vkzY1VjDauFcjypb_6ps4-JF_6h8M"
+                alt=""></div>
+        <div class="grid-item">Kalan King <br> Software engineering student </div>
+
+        <!--raph's-->
+        <div class="grid-item">
+            <img width="150" height="150"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/800px-Default_pfp.svg.png"
+                alt="" class="rounded">
+        </div>
+        <div class="grid-item">
+            <h3>Raphaelle Ghanem</h3>
+            <p>First Year Software Engineering Student at uOttawa. Further developing my programming and abilities 
+                through projects, pursuing academic studies, and actively engaging in self-directed learning.</p>
+        </div>
+
+        <!--shane's-->
+        <div class="grid-item">
+            <img width="150" height="150"
+                src="https://media.licdn.com/dms/image/D4E03AQE0LpPLQvRQMQ/profile-displayphoto-shrink_200_200/0/1697132372580?e=1704931200&v=beta&t=yuy6IIuy5Nb93znnF9J4a5lpxydzU1yShhbcYOxEcbY"
+                alt="" class="rounded">
+        </div>
+        <div class="grid-item">
+            <h3>Shane Stock</h3>
+            <p>Software Engineering Student & Developer. My educational career goal of software engineering is underway
+                through my enrolment at the University of Ottawa in a BASc in software engineering, engineering
+                management and entrepreneurship.</p>
+        </div>
+
+        <!--person 4-->
+        <div class="grid-item"></div>
+        <div class="grid-item"><img width="150" height="150"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/800px-Default_pfp.svg.png"
+                alt=""></div>
+        <div class="grid-item">Team member Name <br> Description </div>
+
+        <!--person 5-->
+        <div class="grid-item"></div>
+        <div class="grid-item"><img width="150" height="150"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/800px-Default_pfp.svg.png"
+                alt=""></div>
+        <div class="grid-item">Team member Name <br> Description </div>
+
+        <!--person 6-->
+        <div class="grid-item"></div>
+        <div class="grid-item"><img width="150" height="150"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/800px-Default_pfp.svg.png"
+                alt=""></div>
+        <div class="grid-item">Team member Name <br> Description </div>
     </body>
 </html>
