@@ -260,6 +260,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    text-align: center;
 }
 
 .events-header {
@@ -269,7 +270,8 @@ body {
     background-color: #F6F862; /* Yellow */
     padding: 10px;
     margin: 10px;
-    border-radius: 25px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .corporate-header {
@@ -277,8 +279,9 @@ body {
     height: 250px;
     background-color: #073B3A; /* Forest Green */
     padding: 10px;
-    margin-right: 10px;
-    border-radius: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .data-header {
@@ -287,7 +290,8 @@ body {
     background-color: #6E4276; /* Purple */
     padding: 10px;
     margin: 10px;
-    border-radius: 25px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 /* Team */
