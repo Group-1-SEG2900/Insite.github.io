@@ -346,21 +346,9 @@ html {
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
-/* Team */
-.grid-container {
-    display: grid;
-    gap: 50px 0px;
-    grid-template-columns: 10fr 35fr 25fr 10fr 35fr;
-    padding: 0px;
-    align-items: start;
-}
-.grid-item {
-    padding: 10px;
-    font-size: 20px;
-    word-wrap: break-word;
-}
 
 /* css for team page*/
+
 .grid-container {
     display: grid;
     gap: 50px 0px;
@@ -375,7 +363,7 @@ html {
     word-wrap: break-word;
   }
 
-img.rounded {
+img {
       object-fit: cover;
       border-radius: 50%;
       height: 150px;
