@@ -159,7 +159,21 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+/* Demo */
+.demo_section {
+    color: #F7F7FF;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6E4276;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
 
+#demo1 {
+    border-radius: 10px;
+}
 
 /* Features  */
 .features-text {
