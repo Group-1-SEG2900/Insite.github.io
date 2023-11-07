@@ -283,7 +283,7 @@ html {
 
 /* css for pricing page*/
 
-.pricing-button {
+.pricing-button-header {
     background-color: lightgray;
     border: none;
     color: black;
@@ -294,6 +294,19 @@ html {
     font-size: 16px;
     text-align: center;
 }
+
+.pricing-button-body {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+
 .events-header {
     width: 250px;
     height: 250px;
