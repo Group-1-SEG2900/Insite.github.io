@@ -159,21 +159,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-/* Demo */
-.demo_section {
-    color: #F7F7FF;
-    display: block;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #6E4276;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
 
-#demo1 {
-    border-radius: 10px;
-}
 
 /* Features  */
 .features-text {
@@ -262,6 +248,46 @@ body {
     margin-bottom: 20px;
     padding: 10px;
     margin: 0 auto;
+}
+
+/* Pricing  */
+.pricing-button {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.events-header {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #F6F862; /* Yellow */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.corporate-header {
+    width: 250px;
+    height: 250px;
+    background-color: #073B3A; /* Forest Green */
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.data-header {
+    width: 250px;
+    height: 250px;
+    background-color: #6E4276; /* Purple */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
 }
 
 /* Team */
