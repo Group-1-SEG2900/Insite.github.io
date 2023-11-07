@@ -210,8 +210,11 @@ html {
 
 .container-small {
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
 
 .sharing-title {
