@@ -68,6 +68,18 @@
 html {
     scroll-behavior: smooth;
   }
+
+/* General Website Style rules */
+  body {
+    font-family: "Playpen Sans", sans-serif;
+    background-image: url("../assets/site_circles_bg.png");
+    background-size: cover;
+    background-color: #F7F7FF;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
 /* css for landing screen */
 #landing-screen {
     position: relative;
@@ -113,16 +125,26 @@ html {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* css for home page*/
-#homePage {
-    font-family: Arial, sans-serif;
-    background-color: #F7F7FF;
-    color: #000000;
-    margin: 0;
-    padding: 0;
+/* Demo */
+.demo_section {
+    color: #F7F7FF;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6E4276;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.title {
+#demo1 {
+    border-radius: 10px;
+}
+
+/* css for home page*/
+
+#title {
+    font-family: "Playpen Sans", sans-serif;
     font-size: 50px;
     text-align: center;
     text-decoration: none;
@@ -132,14 +154,15 @@ html {
     margin-bottom: 20px;
 }
 
-.caption {
+#caption {
+    font-family: "Playpen Sans", sans-serif;
     font-size: 30px;
     text-align: center;
     margin-bottom: 40px;
     color: #073B3A;
 }
 
-.section-content {
+#section-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -149,20 +172,21 @@ html {
     border-radius: 10px;
 }
 
-.bold {
+#bold {
+    font-family: "Playpen Sans", sans-serif;
     font-weight: bold;
     color: #F7F7FF;
     margin-right: 20px;
     flex-grow: 2;
 }
 
-.image {
+#image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
-.container {
+#container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
@@ -170,13 +194,14 @@ html {
 
 /* css for features page*/
 .features-text {
+    font-family: "Playpen Sans", sans-serif;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
 }
 
 #featuresPage {
-    font-family: Arial, sans-serif;
+    font-family: "Playpen Sans", sans-serif;
     background-color: #F7F7FF;
     color: #000000;
     margin: 0;
@@ -257,6 +282,70 @@ html {
 }
 
 /* css for pricing page*/
+
+.pricing-button {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+.events-header {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #F6F862; /* Yellow */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.corporate-header {
+    width: 250px;
+    height: 250px;
+    background-color: #073B3A; /* Forest Green */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.data-header {
+    width: 250px;
+    height: 250px;
+    background-color: #6E4276; /* Purple */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pricing-body {
+    width: 750px;
+    height: 250px;
+    background-color: #F7F7FF;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+/* Team */
+.grid-container {
+    display: grid;
+    gap: 50px 0px;
+    grid-template-columns: 10fr 35fr 25fr 10fr 35fr;
+    padding: 0px;
+    align-items: start;
+}
+.grid-item {
+    padding: 10px;
+    font-size: 20px;
+    word-wrap: break-word;
+}
 
 /* css for team page*/
 .grid-container {
