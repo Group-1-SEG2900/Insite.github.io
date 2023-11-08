@@ -437,3 +437,12 @@ html {
 .slideInFromBottom {
     animation: slideInFromBottom 1s forwards;
 }
+
+
+#footer {
+    height: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: #e9e9e9;
+}
