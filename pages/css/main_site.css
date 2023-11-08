@@ -197,6 +197,13 @@ html {
     height: 100vh;
 }
 
+#features-grid {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+
 /* css for features page*/
 .features-text {
     font-family: "Playpen Sans", sans-serif;
