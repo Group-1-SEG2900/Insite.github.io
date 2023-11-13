@@ -58,7 +58,7 @@ window.onload = function() {
 };
 
 function showB1() {
-    var x = document.getElementById("sharing-main-box");
+    var x = document.getElementById('sharing-main-box');
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
