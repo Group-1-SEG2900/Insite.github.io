@@ -346,21 +346,26 @@ body {
 }
 
 .pricing-button-body {
+    width: 25%;
     background-color: lightgray;
     border: none;
     color: black;
     padding: 50px 50px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     text-align: center;
 }
 
+#pricing-table {
+    table-layout: fixed;
+    margin-left: 5em;
+    margin-right: 5em;
+    border-spacing: 1em;
+}
+
 .events-header {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
+    width: 15%;
     background-color: #F6F862;
     /* Yellow */
     padding: 10px;
@@ -370,8 +375,7 @@ body {
 }
 
 .corporate-header {
-    width: 250px;
-    height: 250px;
+    width: 15%;
     background-color: #073B3A;
     /* Forest Green */
     padding: 10px;
@@ -381,8 +385,7 @@ body {
 }
 
 .data-header {
-    width: 250px;
-    height: 250px;
+    width: 15%;
     background-color: #6E4276;
     /* Purple */
     padding: 10px;
@@ -392,8 +395,7 @@ body {
 }
 
 .pricing-body {
-    width: 750px;
-    height: 250px;
+    width: 55%;
     background-color: #F7F7FF;
     padding: 10px;
     margin: 10px;

@@ -25,7 +25,7 @@ Google Analytics (but it requires a privacy policy)
     <div id="navigator" class="navDown">
         <a class="navLink" id="link1" href="#homePage">Home</a>
         <a class="navLink" id="link2" href="#features-header">Features</a>
-        <a class="navLink" id="link3" href="#pricingPage">Pricing</a>
+        <a class="navLink" id="link3" href="#pricing">Pricing</a>
         <a class="navLink" id="link4" href="#aboutPage">About</a>
     </div>
     <section id="landing-screen">
@@ -105,9 +105,9 @@ Google Analytics (but it requires a privacy policy)
                 <p style="margin:0; font-size: 20px">Select Each Feature To Find Out More!</p>
             </div>
             <div id="features-grid">
-                    <div class="sharing-title" onclick="showB1()">
-                        <h3>Sharing Perspectives at Events</h3>
-                    </div>
+                <div class="sharing-title" onclick="showB1()">
+                    <h3>Sharing Perspectives at Events</h3>
+                </div>
                 <div class="tree-title" onclick="showB2()">
                     <h3>Tree Structure and Folders</h3>
                 </div>
@@ -162,106 +162,107 @@ Google Analytics (but it requires a privacy policy)
     </section>
 
     <!--Pricing Page code (Danny)-->
-
-    <h1 style="text-align:center">Pricing</h1>
-    <h2 style="text-align:center">Insite is free for users. Enterprise pricing shown below</h2>
-    <div class="pricing-button-header">
-        <a href="url" class="pricing-button-header">Button that scrolls to below sections</a>
-    </div>
-    <table>
-        <tr>
-            <td>
-                <div class="events-header">
-                    <h1>Events Solution</h1>
-                </div>
-            </td>
-            <td>
-                <div class="pricing-body">
-                    <h3>Premium Event Listings</h3>
-                    <ul>
-                        <li>Appear more relevant in search and queries for your event</li>
-                        <li>Appear in “Promoted Events” sections</li>
-                        <li>Appear more relevant in the feeds of fans of your event genre</li>
-                    </ul>
-                    <h3>Sponsored Content and Advertisements</h3>
-                    <ul>
-                        <li>Host advertising and promotional material in advertisement sections on the platform,
-                            targeted to
-                            relevant users based on their data (eg. Ticketmaster)</li>
-                    </ul>
-                </div>
-            </td>
-            <td>
-                <div class="pricing-button-body">
-                    <a href="url" class="pricing-button-body">Contact Sales/Link to solution button</a>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="corporate-header">
-                    <h1>Corporate Solutions</h1>
-                </div>
-            </td>
-            <td>
-                <div class="pricing-body">
-                    <h3>Corporate-Hosted Events:</h3>
-                    <ul>
-                        <li>Make your events more engaging and memorable for your employees with private,
-                            company-hosted
-                            events on Insite</li>
-                        <li>Private events that employees can post their experiences and memories to</li>
-                    </ul>
-                    <h3>Corporate Challenges:</h3>
-                    <ul>
-                        <li>Host challenges specific to an event or the entire platform</li>
-                        <li>Have millions of platform users create organic UGC content for your brand or company,
-                            e.g.,
-                            post
-                            photos of drinking coke at your events</li>
-                    </ul>
-                </div>
-            </td>
-            <td>
-                <div class="pricing-button-body">
-                    <a href="url" class="pricing-button-body">Contact Sales/Link to solution button</a>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="data-header">
-                    <h1>Data and Ads</h1>
-                </div>
-            </td>
-            <td>
-                <div class="pricing-body">
-                    <h3>Data Analysis Platform:</h3>
-                    <ul>
-                        <li>Use our data analysis platform for your company, event, or business to get aggregated
-                            data
-                            points from millions of Insite users</li>
-                        <li>Analyze the data of public events on Insite, including generating insights using
-                            engagement
-                            and
-                            UGC data at any public event</li>
-                    </ul>
-                    <h3>Ad Platform:</h3>
-                    <ul>
-                        <li>Display any of your businesses ads and promotional material on Insite, catered
-                            andtargeted
-                            to
-                            relevant users based on their relevant data points</li>
-                    </ul>
-                </div>
-            </td>
-            <td>
-                <div class="pricing-button-body">
-                    <a href="url" class="pricing-button-body">Contact Sales/Link to solution button</a>
-                </div>
-            </td>
-        </tr>
-    </table>
+    <section id="pricing">
+        <h1 style="text-align:center">Pricing</h1>
+        <h2 style="text-align:center">Insite is free for users. Enterprise pricing shown below</h2>
+        <div class="pricing-button-header">
+            <a href="url" class="pricing-button-header">Button that scrolls to below sections</a>
+        </div>
+        <table id="pricing-table">
+            <tr>
+                <td class="events-header">
+                    <div>
+                        <h1>Events Solution</h1>
+                    </div>
+                </td>
+                <td class="pricing-body">
+                    <div >
+                        <h3>Premium Event Listings</h3>
+                        <ul>
+                            <li>Appear more relevant in search and queries for your event</li>
+                            <li>Appear in “Promoted Events” sections</li>
+                            <li>Appear more relevant in the feeds of fans of your event genre</li>
+                        </ul>
+                        <h3>Sponsored Content and Advertisements</h3>
+                        <ul>
+                            <li>Host advertising and promotional material in advertisement sections on the platform,
+                                targeted to
+                                relevant users based on their data (eg. Ticketmaster)</li>
+                        </ul>
+                    </div>
+                </td>
+                <td class="pricing-button-body">
+                    <div>
+                        <a href="url">Contact Sales/Link to solution button</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="corporate-header">
+                    <div>
+                        <h1>Corporate Solutions</h1>
+                    </div>
+                </td>
+                <td class="pricing-body">
+                    <div>
+                        <h3>Corporate-Hosted Events:</h3>
+                        <ul>
+                            <li>Make your events more engaging and memorable for your employees with private,
+                                company-hosted
+                                events on Insite</li>
+                            <li>Private events that employees can post their experiences and memories to</li>
+                        </ul>
+                        <h3>Corporate Challenges:</h3>
+                        <ul>
+                            <li>Host challenges specific to an event or the entire platform</li>
+                            <li>Have millions of platform users create organic UGC content for your brand or company,
+                                e.g.,
+                                post
+                                photos of drinking coke at your events</li>
+                        </ul>
+                    </div>
+                </td>
+                <td class="pricing-button-body">
+                    <div>
+                        <a href="url">Contact Sales/Link to solution button</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="data-header">
+                    <div>
+                        <h1>Data and Ads</h1>
+                    </div>
+                </td>
+                <td class="pricing-body">
+                    <div>
+                        <h3>Data Analysis Platform:</h3>
+                        <ul>
+                            <li>Use our data analysis platform for your company, event, or business to get aggregated
+                                data
+                                points from millions of Insite users</li>
+                            <li>Analyze the data of public events on Insite, including generating insights using
+                                engagement
+                                and
+                                UGC data at any public event</li>
+                        </ul>
+                        <h3>Ad Platform:</h3>
+                        <ul>
+                            <li>Display any of your businesses ads and promotional material on Insite, catered
+                                andtargeted
+                                to
+                                relevant users based on their relevant data points</li>
+                        </ul>
+                    </div>
+                </td>
+                <td class="pricing-button-body">
+                    <div>
+                        <a href="url">Contact Sales/Link to solution button</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
 
 
     <!--Team Page code (Peter)-->
