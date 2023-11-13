@@ -236,7 +236,7 @@ body {
     z-index: -2;
 }
 
-#featuresPageNotHeader {
+.featuresPageNotHeader {
     margin: 0;
     padding: 0;
     background-color: rgba(0, 0, 0, 0.8);

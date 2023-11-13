@@ -59,10 +59,10 @@ window.onload = function() {
 
 function showB1() {
     var x = document.getElementById('sharing-main-box');
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
+    if (x.style.display === "block") {
         x.style.display = "none";
+    } else {
+        x.style.display = "block";
     }
 }
 
