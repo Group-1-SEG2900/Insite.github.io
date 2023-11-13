@@ -193,13 +193,9 @@ body {
 }
 
 #container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 1300px;
+    display: block;
+    margin: auto;
     height: 100vh;
 }
 
@@ -251,9 +247,10 @@ body {
 
 .container-big {
     margin-top: 1em;
+    margin-bottom: 1em;
     display: grid;
     justify-content: center;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
 }
 
 .sharing-title {
@@ -265,6 +262,7 @@ body {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .tree-title {
@@ -276,6 +274,7 @@ body {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .profile-title {
@@ -287,9 +286,10 @@ body {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
-.sharing-main-box {
+#sharing-main-box {
     width: 1000px;
     height: 200px;
     text-align: center;
@@ -299,7 +299,7 @@ body {
     padding: 10px;
 }
 
-.tree-main-box {
+#tree-main-box {
     width: 1000px;
     height: 200px;
     text-align: center;
@@ -309,7 +309,7 @@ body {
     padding: 10px;
 }
 
-.profile-main-box {
+#profile-main-box {
     width: 1000px;
     height: 200px;
     text-align: center;

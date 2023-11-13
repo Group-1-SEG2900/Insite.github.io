@@ -56,3 +56,30 @@ window.onload = function() {
         document.getElementById("featuresPage").scrollIntoView();
       }
 };
+
+function showB1() {
+    var x = document.getElementById("sharing-main-box");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function showB2() {
+    var x = document.getElementById("tree-main-box");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function showB3() {
+    var x = document.getElementById("profile-main-box");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+} 
