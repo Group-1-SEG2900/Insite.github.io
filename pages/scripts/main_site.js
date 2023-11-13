@@ -68,18 +68,18 @@ function showB1() {
 
 function showB2() {
     var x = document.getElementById("tree-main-box");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
+    if (x.style.display === "block") {
         x.style.display = "none";
+    } else {
+        x.style.display = "block";
     }
 }
 
 function showB3() {
     var x = document.getElementById("profile-main-box");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
+    if (x.style.display === "block") {
         x.style.display = "none";
+    } else {
+        x.style.display = "block";
     }
-} 
+}
