@@ -248,7 +248,7 @@ body {
     flex-wrap: wrap;
 }
 
-#container-big {
+.container-big {
     margin-top: 1em;
     margin-bottom: 1em;
     display: grid;
@@ -296,6 +296,7 @@ body {
 }
 
 #sharing-main-box {
+    display: none;
     width: 1000px;
     height: 200px;
     text-align: center;
@@ -307,6 +308,7 @@ body {
 }
 
 #tree-main-box {
+    display: none;
     width: 1000px;
     height: 200px;
     text-align: center;
@@ -318,6 +320,7 @@ body {
 }
 
 #profile-main-box {
+    display: none;
     width: 1000px;
     height: 200px;
     text-align: center;
