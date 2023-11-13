@@ -297,8 +297,8 @@ body {
 
 #sharing-main-box {
     display: none;
-    width: 1000px;
-    height: 200px;
+    width: 70em;
+    height: 10em;
     text-align: center;
     background-color: #6E4276;
     /* Purple */
@@ -309,8 +309,8 @@ body {
 
 #tree-main-box {
     display: none;
-    width: 1000px;
-    height: 200px;
+    width: 70em;
+    height: 10em;
     text-align: center;
     background-color: #F6F862;
     /* Yellow */
@@ -321,8 +321,8 @@ body {
 
 #profile-main-box {
     display: none;
-    width: 1000px;
-    height: 200px;
+    width: 70em;
+    height: 10em;
     text-align: center;
     background-color: #073B3A;
     /* Forest Green */
@@ -358,8 +358,8 @@ body {
 }
 
 #pricing-table {
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 3em;
+    margin-right: 3em;
     border-spacing: 1em;
 }
 
