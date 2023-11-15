@@ -156,22 +156,10 @@ body {
 
 /* css for home page*/
 
-#title {
-    font-family: "Playpen Sans", sans-serif;
-    font-size: 50px;
-    text-align: center;
-    text-decoration: none;
-    color: #6E4276;
-    background-color: #F6F862;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
 #caption {
     font-family: "Playpen Sans", sans-serif;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 40px;
     color: #073B3A;
 }
 
@@ -193,17 +181,72 @@ body {
     flex-grow: 2;
 }
 
-#image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+#left_text{
+    float: left;
+    width: 600px;
+    margin-right: 100px;
+}
+
+#right_text{
+    float: right;
+    width: 600px;
+    margin-left: 100px;
+}
+
+#right_img{
+    float: right;
+}
+
+#left_img{
+    float: left;
 }
 
 #container {
-    max-width: 1300px;
-    display: block;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-    height: 100vh;
+    height:500px;
+}
+
+#container h2{
+    font-family: "Playpen Sans", sans-serif;
+    color:black;
+}
+
+#container h3{
+    font-family: "Playpen Sans", sans-serif;
+    font-weight: bold;
+    color:gray;
+}
+
+
+#container img{
+    border-radius: 30px;
+    width: 450px;
+    height: 300px;
+}
+
+.underline__text{
+    position: relative;
+    margin-bottom: 1rem; 
+    display:inline-block;
+}
+
+.underline__text::before{
+    content:"";
+    position: absolute;
+    bottom: -5px;
+    width:0;
+    height:3px;
+    background-color:black;
+    transition: 0.3s width;
+    
+}
+
+.underline__text--active::before{
+    width:100%;
 }
 
 #features-grid {
@@ -329,6 +372,12 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 10px;
+}
+
+#video_container{
+    padding-bottom: 100px;
+    margin:auto;
+    max-width:1200px;
 }
 
 /* css for pricing page*/

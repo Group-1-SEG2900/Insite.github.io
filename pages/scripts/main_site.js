@@ -1,6 +1,22 @@
 var video;
 var fraction = 0.8;
 
+const newEvents = document.querySelector(".underline__text");
+newEvents.style.width = 100;
+document.addEventListener("scroll", function(){
+    if(isInView(newEvents)){
+        newEvents.classList.add("underline__text--active");
+    }else{
+        newEvents.classList.remove("underline__text--active");
+    }
+    
+},false);
+
+function isInView(element){
+    const rect = element.getBoundingClientRect();
+    return rect.bottom > 0 && rect.top < (window.innerHeight - 200 || document.documentElement.clientHeight - 200);
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     var images = document.querySelectorAll('#image-matrix img');
     var classes = ['slideInFromLeft', 'slideInFromRight', 'slideInFromTop', 'slideInFromBottom'];
