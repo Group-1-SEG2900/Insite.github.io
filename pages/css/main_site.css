@@ -325,6 +325,7 @@ body {
 }
 
 .container-big {
+    margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;
     display: grid;
@@ -379,6 +380,7 @@ body {
     background-color: #6E4276;
     /* Purple */
     border-radius: 10px;
+    margin: auto;
     margin-bottom: 20px;
     padding: 10px;
 }
@@ -391,6 +393,7 @@ body {
     background-color: #F6F862;
     /* Yellow */
     border-radius: 10px;
+    margin: auto;
     margin-bottom: 20px;
     padding: 10px;
 }
@@ -403,6 +406,7 @@ body {
     background-color: #89E5FA;
     /* Forest Green */
     border-radius: 10px;
+    margin: auto;
     margin-bottom: 20px;
     padding: 10px;
 }
@@ -432,8 +436,9 @@ body {
 }
 
 .pricing-button-body {
-    width: 25%;
+    width: 15%;
     background-color: lightgray;
+    border-radius: 20px;
     border: none;
     color: black;
     padding: 50px 50px;
@@ -480,7 +485,7 @@ body {
 }
 
 .pricing-body {
-    width: 55%;
+    width: 65%;
     background-color: #F7F7FF;
     padding: 10px;
     margin: 10px;
@@ -516,6 +521,13 @@ body {
     word-wrap: break-word;
 }
 
+#aboutPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 1.33em;
+}
 
 @keyframes slideInFromLeft {
     0% {
