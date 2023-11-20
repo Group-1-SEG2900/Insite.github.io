@@ -1,16 +1,18 @@
 var video;
 var fraction = 0.8;
 
-const newEvents = document.querySelector(".underline__text");
-newEvents.style.width = 100;
 document.addEventListener("scroll", function(){
-    if(isInView(newEvents)){
-        newEvents.classList.add("underline__text--active");
+    if(isInView(document.getElementById("underline"))){
+        document.getElementById("underline").className = "underline--active";
     }else{
-        newEvents.classList.remove("underline__text--active");
+        document.getElementById("underline").className = "underline--deactive";
     }
-    
-},false);
+    if(isInView(document.getElementById("underline2"))){
+        document.getElementById("underline2").className = "underline--active";
+    }else{
+        document.getElementById("underline2").className = "underline--deactive";
+    }
+});
 
 function isInView(element){
     const rect = element.getBoundingClientRect();
@@ -53,12 +55,9 @@ window.addEventListener('scroll', checkScroll, false);
 window.addEventListener('resize', checkScroll, false);
 
 window.onload = function() {
+
     document.getElementById("hoverOver").onmouseenter = function() {mouseEnter()};
     document.getElementById("navigator").onmouseleave = function() {mouseLeave()};
-    document.getElementsById("link1").onclick = function() {window.scrollTo(0)};
-    document.getElementsById("link2").onclick = function() {document.getElementById("featuresPage").scrollIntoView()};
-    document.getElementsById("link3").onclick = function() {document.getElementById("featuresPage").scrollIntoView()};
-    document.getElementsById("link4").onclick = function() {document.getElementById("featuresPage").scrollIntoView()};
 
     function mouseEnter() {
         document.getElementById("navigator").className = "navDown";
@@ -67,10 +66,6 @@ window.onload = function() {
     function mouseLeave() {
         document.getElementById("navigator").className = "navUp";
     }
-
-    function jumpTo(link) {
-        document.getElementById("featuresPage").scrollIntoView();
-      }
 };
 
 function showB1() {
