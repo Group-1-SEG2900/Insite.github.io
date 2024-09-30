@@ -1,6 +1,6 @@
 # Group-1_SEG2900
 
-Website link - https://group-1-seg2900.github.io/Insite.github.io/
+Website link - https://group-1-seg2900.github.io/Insite.github.io/pages/main_site.html
 
 Slides link - https://www.canva.com/design/DAF0c1-b9cs/zxjWrswGtLb0bm9upaFPzQ/edit?utm_content=DAF0c1-b9cs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 Repo for DGD group 1 of SEG2900, 2023.
